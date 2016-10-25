@@ -3,16 +3,26 @@
 <head>
 <title>My first website</title>
 <style>
+  table,td,th {
+    border:5px solid black;
+    border-collapse:collapse;
+  }
+  td,th {
+    padding: 5px;
+  }
+  th {
+    text-align:left;
+  }
   body {background-color:powderblue;}
   h1 {font-family: verdana;
     color:green;
     font-size:800%;
-    text-align:centre;
+    
   }
   p {font-family: calibri;
     color: blue;
     font-size: 100%;
-    text-align:centre;
+    
   }
     
   </style>
@@ -21,6 +31,24 @@
 
 <h1>Google</h1>
   <p>chota google</p>
-
+<table>
+  <caption>Weather Chart</caption>
+  <tr>
+    <th>day</th>
+    <th>weather</th>
+    <th>temperature</th>
+  </tr>
+  <tr>
+    <td>Monday</td>
+    <td>Mostly cloudy</td>
+    <td>65F</td>
+  </tr>
+  <tr>
+  <td>Tuesday</td>
+    <td>Cloudy Sunny</td>
+    <td>73F</td>
+  </tr>
+  </table>
+    
 </body>
 </html>
