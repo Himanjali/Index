@@ -1,17 +1,35 @@
+
 <!DOCTYPE HTML>
 <html>
-     <head>
-          <title>My Webpage</title>
-     </head>
-     <body>
-          <h1>My Website-This is <strong>bold</strong> </h1>
-          <p> Let's look at this </p>
-          <a href="https://3.bp.blogspot.com/-W__wiaHUjwI/Vt3Grd8df0I/AAAAAAAAA78/7xqUNj8ujtY/s1600/image02.png>google.com</a>
-           <img src="https://3.bp.blogspot.com/-W__wiaHUjwI/Vt3Grd8df0I/AAAAAAAAA78/7xqUNj8ujtY/s1600/image02.png">
-     <ul>
-          <li>item1</li>
-          <li>item2</li>
-          <li>item3</li>
-         </ul>
-     </body>
+<head>
+<title>My Webpage</title>
+<link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+
+<body>
+<div class="content">
+	
+	<header>
+		<nav>
+			<h1>Himanjali Agarwal</h1>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="Bummer.pdf">About</a></li>
+				<li><a href="#">Project</a></li>
+				<li><a href="Contact.txt">Contact</a></li>
+			</ul>
+		</nav>
+	</header> 
+	<body onload="greetingmessage()">
+	<div class="content">
+	<img src="linkedin.JPG" alt="My picture" style="width:304px;height:440px" class="image" id="image" onmouseover="changeimage()" onmouseout="changeback()">
+	<script type="text/javascript" src="script.js">
+	</script>
+	<b><br/> Name: </b>
+	<input type="text" style="width:75px" id="name" />
+	<button type="button" id="button" onclick="change()">Enter</button><br/>
+	<br /><b id="greeting"></b><br />
+		<p id="para">Hello and welcome to my website.</p>
+	</div>
+</body>
 </html>
