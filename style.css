@@ -1,5 +1,6 @@
 body{
 	background:url("amalfi-coast-in-italy.jpg");
+	background-size:cover;
 	}
 	header{
 	background:#999;
