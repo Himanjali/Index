@@ -2,12 +2,12 @@ body{
 	background:url("amalfi-coast-in-italy.jpg");
 	background-size:cover;
 	background-align:center;
-	text-align:center;
 	}
 	header{
 	background:#999;
 	color:white;
 	padding:20px 20px 0 20px;
+	text-align:center;
 	}
 	header h1{
 	margin:0;
