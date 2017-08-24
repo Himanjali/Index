@@ -35,8 +35,8 @@ var time=d.getHours();
 	}
 	else
 	{
-	document.getElementById("greeting").innerHTML="Have a nice day today is "+date+"!";
-	document.getElementById("greeting").innerHTML="Have a nice day today is "+date+"!";
+	document.getElementById("greeting").innerHTML="Have a nice day, today is "+date+"!";
+	document.getElementById("greeting").innerHTML="Have a nice day, today is "+date+"!";
 	}
 }
 function changeimage()
