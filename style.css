@@ -10,6 +10,8 @@ body{
 	header h1{
 	margin:0;
 	display:inline;
+	text-align:center;
+	font-size:50px;
 	}
 	nav ul{
 	margin:0;
