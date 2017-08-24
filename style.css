@@ -2,6 +2,7 @@ body{
 	background:url("amalfi-coast-in-italy.jpg");
 	background-size:cover;
 	background-align:center;
+	text-align:center;
 	}
 	header{
 	background:#999;
@@ -11,7 +12,7 @@ body{
 	header h1{
 	margin:0;
 	display:inline;
-	text-align:center;
+	
 	font-size:50px;
 	}
 	nav ul{
